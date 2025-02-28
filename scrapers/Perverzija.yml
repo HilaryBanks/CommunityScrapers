@@ -35,6 +35,6 @@ xPathScrapers:
       Studio:
         # sometimes features multiple studios
         # usepov-summer-stevens-what-we-do-in-the-bus-stop/
-        Name: $meta/div[1]/a[last()]/text()
+        Name: $meta/div[0]/a[last()]/text()
       Image:
         selector: //div[@id="featured-img-id"]/img/@src
